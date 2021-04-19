@@ -1,0 +1,43 @@
+.App {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.drag-container {
+  text-align: center;
+}
+
+.head {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  width: 100%;
+}
+
+.droppable {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  right: 0;
+  top: 10;
+  background-color: #1a0606;
+  border-left: 2px dotted red;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px auto;
+}
+
+.inProgress {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 10;
+  background-color: #eeeeee;
+  border-right: 2px dotted red;
+}
